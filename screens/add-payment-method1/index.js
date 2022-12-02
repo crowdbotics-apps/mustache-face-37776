@@ -8,7 +8,7 @@ const AddPaymentMethodScreen = params => {
   const [cvv, setCvv] = useState("");
   const [name, setName] = useState("");
   return <SafeAreaView style={styles.container}>
-      <ScrollView>
+      <ScrollView style={styles.YcEbKGeR}>
         <View style={styles.header}>
           <View style={styles.paletteContainer}>
             <View style={styles.unSelected}></View>
@@ -173,6 +173,9 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 16,
     fontWeight: "bold"
+  },
+  YcEbKGeR: {
+    borderRadius: 0
   }
 });
 export default AddPaymentMethodScreen;
